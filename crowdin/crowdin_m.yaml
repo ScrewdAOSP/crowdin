@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-api_key:
+api_key: 
 base_path: /media/ubuntu/a4f261fb-46a8-4f2b-9ab7-96a0419b3a9f/ScrewdAOSP
 project_identifier: screwd-aosp
 preserve_hierarchy: true
@@ -28,68 +28,18 @@ files:
     translation: '/%original_path%-%android_code%/%original_file_name%'
     languages_mapping: &anchor
       android_code:
-        af: af
-        am: am
-        ar: ar
-        ast: es-rXA
-        az: az
-        be: be
-        bg: bg
-        bn: bn
-        ca: ca
-        cs: cs
-        da: da
         de: de
-        el: el
         es-ES: es
-        et: et
-        eu: eu
-        fa: fa
-        fi: fi
         fr: fr
-        gl: gl
-        he: iw
-        hi: hi
-        hr: hr
-        hu: hu
-        hy-AM: hy
-        id: in
-        is: is
         it: it
         ja: ja
-        ka: ka
-        km: km
-        ko: ko
-        ku: ku
-        lb: lb
-        lo: lo
-        lt: lt
-        lv: lv
-        ml-IN: ml
-        mn: mn
         ms: ms
-        nb: nb
-        ne-NP: ne
         nl: nl
-        pa-IN: pa
         pl: pl
-        rm-CH: rm
-        ro: ro
         ru: ru
-        si-LK: si
-        sk: sk
-        sl: sl
-        sr: sr
         sv-SE: sv
-        sw: sw
-        ta: ta
-        th: th
-        tl: tl
-        tr: tr
-        ug: ug
-        uk: uk
         vi: vi
-        zu: zu
+        zh-TW: zh-rTW
 
   -
     source:      '/frameworks/base/packages/SystemUI/res/values/screwd_strings.xml'
