@@ -1,0 +1,58 @@
+# crowdin-n7x.yaml
+#
+# Crowdin configuration file for Screw'd 
+#
+# Copyright (C) 2016 Screw'd AOSP
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+api_key: GETYOUROWNDAMNAPIKEY!!
+base_path: /home/mrapocalypse/ScrewdN
+project_identifier: screwd-aosp
+preserve_hierarchy: true
+
+files:
+# Default for ScrewdAOSP
+  -
+    source:      '/**/values/screwd_strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: &anchor
+      android_code:
+        de: de
+        es-ES: es
+        fr: fr
+        it: it
+        ja: ja
+        ms: ms
+        nl: nl
+        pl: pl
+        ru: ru
+        sv-SE: sv
+        vi: vi
+        zh-TW: zh-rTW
+
+
+  -
+    source:      '/packages/apps/DUI/res/values/strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: *anchor
+
+  -
+    source:      '/packages/apps/Settings/res/values/screwd_strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: *anchor
+
+  -
+    source:      '/packages/apps/ScrewShop/res/values/strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
+    languages_mapping: *anchor
