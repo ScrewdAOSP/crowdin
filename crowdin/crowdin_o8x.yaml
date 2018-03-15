@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-api_key: GETYOUROWNDAMNAPIKEY!!
+api_key: GETYOUROWNDAMNAPIKEY!!!
 base_path: /home/mrapocalypse/screwd
 project_identifier: screwd-aosp
 preserve_hierarchy: true
@@ -28,6 +28,7 @@ files:
     translation: '/%original_path%-%android_code%/%original_file_name%'
     languages_mapping: &anchor
       android_code:
+        cs: cs
         de: de
         es-ES: es
         fr: fr
@@ -39,6 +40,7 @@ files:
         nl: nl
         pl: pl
         ru: ru
+        sk: sk
         sv-SE: sv
         vi: vi
         zh-TW: zh-rTW
