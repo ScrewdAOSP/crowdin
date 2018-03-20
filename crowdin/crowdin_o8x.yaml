@@ -28,22 +28,25 @@ files:
     translation: '/%original_path%-%android_code%/%original_file_name%'
     languages_mapping: &anchor
       android_code:
+        # Czech
         cs: cs
+        # German
         de: de
-        es-ES: es
+        # French
         fr: fr
+        # Hungarian
+        hu: hu
+        # Indonesian
         id: in
+        # Italian
         it: it
-        ja: ja
-        lt: lt
-        ms: ms
-        nl: nl
+        # Polish
         pl: pl
+        # Portuguese, Brazilian
+        pt-BR: pt-rBR
         ru: ru
+        # Slovak
         sk: sk
-        sv-SE: sv
-        vi: vi
-        zh-TW: zh-rTW
 
 
   -
